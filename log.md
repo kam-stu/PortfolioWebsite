@@ -11,3 +11,18 @@
     2) Break down and log each part that I would need to learn
     3) Search for potential websites for learning
     4) Potentially Start Coding navbar???
+
+
+5/30/2024
+1) Find color scheme for website
+    1) Off-White / Gray
+    2) Dark Gray / Black
+    3) Pastel Purple
+    4) Pastel Blue???
+2) Finish Mockup of website
+3) Potentially begin working on the navbar
+
+    Goals for tomorrow: 
+    1) Begin working on navbar
+    2) If finish, create placeholder images for the body 
+    3) Begin working on the body

@@ -45,11 +45,15 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: aqua;
+    background-color: #af9bb6;
     transition: all 0.3s ease;
 }
 
 .link a:hover::after {
     width: 80%;
+}
+
+.link :hover {
+    color: rgba(246, 244, 243, 0.7)
 }
 

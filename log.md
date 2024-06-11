@@ -36,3 +36,11 @@
     Goals for tomorrow:
     1) Finish About Me
     2) Start working on the Projects section
+
+6/11/2024
+1) Working on finishing the styling of projects section
+2) Work on putting the actual content for the projects
+
+    Goals for tomorrow:
+    1) Work on putting content in section
+    2) Start working on skills section

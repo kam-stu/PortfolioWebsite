@@ -43,4 +43,5 @@
 
     Goals for tomorrow:
     1) Work on putting content in section
-    2) Start working on skills section
+    2) Find a color scheme that works for the section
+    3) Start working on skills section

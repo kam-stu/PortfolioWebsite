@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Kameron Stuckey | Computer Science</title>
+    <title>Kameron Stuckey | Computer Science Portfolio</title>
     <link rel="icon" href="/Images/PlaceHolder1.png">
 </head>
 
@@ -14,7 +14,7 @@
         <nav>
             <ul class="nav-links">
                 <li class="link"><a href="#AboutMe">About Me</a></li>
-                <li class="link"><a href="#projects">Projects</a></li>
+                <li class="link"><a href="#">Projects</a></li>
                 <li class="link"><a href="#">Skills</a></li>
                 <li class="link"><a href="#">Contact</a></li>
                 <li class="link"><a href="#">Resume</a></li>
@@ -23,8 +23,8 @@
     </div>
 
     <div class="about-me">
-        <section id="AboutMe"></section>
-        <div class="container">
+        <div class="container" style="background: none;">
+            <section id="AboutMe"></section>
             <div class="section-container">
                 <div class="section-left">
                     <img src="/Images/PlaceHolder1.png" alt="PlaceHolder" style="width: 50%">
@@ -46,13 +46,82 @@
 
     <div class="projects">
         <section id="Projects">Projects</section>
-        <div class="container" style="background-color: aqua;">
+
+        <!--Project 1-->
+        <div class="container">
             <div class="section-container">
                 <div class="section-left">
-                    <img src="/Images/PlaceHolder1.png" alt="PlaceHolder" style="width: 50%">
+                    <div class="project-image">
+                        <img src="/Images/ProjectImages/ProjectRook.png" alt="Image of chessboard with grid-layout">
+                    </div>
+                </div>
+                <div class="section-right">
+                    <div class="title">Rook Radar</div>
+                    <div class="description">
+                        <p>As part of a three-member team, Rook Radar was a project where a chessboard is detected and passed through stockfish to give the most optimal move.</p>
+                        <br>
+                        <p>In the project, I trained and implemented object detection models using Roboflow and YOLOv9 to detect pieces and corners on a chessboard.  Utilizing this information,
+                            I used image manipulation to change the image into a bird's eye view.  This was done in order to make the image into a grid-layout to determine the position of a given piece.
+                        </p>
+                        <br>
+                        <div class="technologies-used">Technologies Used: Python, Roboflow, YOLOv9, OpenCV</div>
+                    </div>
+                        <button class="github-button">
+                        <a href="https://github.com/aintkam/Project-RookRadar" target="_blank"><div class="github-image"></div></a>
+                    </button>
                 </div>
             </div>
         </div>
+
+        <!--Project 2-->
+        <div class="container">
+            <div class="section-container reverse">
+                <div class="section-left">
+                    <div class="title">Shoot The Spider</div>
+                    <div class="description">
+                        <p>Shoot the spider is a simple game where a spider runs across the screen and your job is to shoot it before it reaches the other side.</p>
+                        <br>
+                        <p>Adding difficulty and personal touch to the game, I decided to make a wave system where more spiders spawn and become faster as the game progresses.  I completed this by adding a class for the wave management 
+                            and making it interact with the classes for the enemies.</p>
+                        <br>
+                        <div class="technologies-used">Technologies Used: Python, Pygame</div>
+                    </div>
+                    <button class="github-button">
+                        <a href="https://github.com/aintkam/CSC132SpiderShooter" target="_blank"><div class="github-image"></div></a>
+                    </button>
+                </div>
+                <div class="section-right">
+                    <div class="project-image">
+                        <img src="/Images/ProjectImages/shootSpider.png" alt="Image of chessboard with grid-layout">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Project 3-->
+        <div class="container">
+            <div class="section-container">
+                <div class="section-left">
+                    <div class="project-image">
+                        <img src="/Images/PlaceHolder1.png" alt="PlaceHolder">
+                    </div>
+                </div>
+                <div class="section-right">
+                    <div class="title">This Website!</div>
+                    <div class="description">
+                        <p>Knowing how important a portfolio is, I decided to build this website as the first project for summer break.</p>
+                        <br>
+                        <p>Since I've never done web-dev, I first learned HTML and CSS to build websites. After learning the languages, I learned how to properly design and maintain a website while working on this project.</p>
+                        <div class="technologies-used">HTML/CSS</div>
+                    </div>
+                        <button class="github-button">
+                        <a href="https://github.com/aintkam/PortfolioWebsite" target="_blank"><div class="github-image"></div></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--Add any additional projects here-->
     </div>
+
 </body>
 </html>

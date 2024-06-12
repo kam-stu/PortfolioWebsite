@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #191716;
+    background-color: #3b3b3b;
     color: #f6f4f3;
 }
 
@@ -67,7 +67,7 @@ nav {
     text-align: center;
     max-width: 75%;
     border-radius: 30px;
-    background-color: #276fbf;
+    background-color: #191716;
 }
 
 section {
@@ -95,6 +95,7 @@ section {
 .description {
     font-size: 1.2rem;
     text-align: left;
+    padding: 0 1rem;
 }
 
 .technologies-used {

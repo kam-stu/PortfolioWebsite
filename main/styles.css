@@ -93,7 +93,7 @@ section {
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: 0 1rem;
 }
@@ -121,13 +121,13 @@ section {
 .github-image {
     width: 60px;
     height: 60px;
-    background: url("/Images/github-mark.png") no-repeat center center;
+    background: url("/Images/github-mark-white.png") no-repeat center center;
     background-size: contain;
     transition: transform 0.3 ease;
 }
 
 .github-button:hover .github-image {
-    background: url("/Images/github-mark-white.png") no-repeat center center;
+    background: url("/Images/github-mark.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -143,6 +143,22 @@ section {
     border-radius: 5px;
     text-align: center;
     list-style-type: none;
+}
+
+.contact-left, .contact-mid, .contact-right {
+    max-width: 33%;
+    width: 33%;
+}
+
+.contact-img img {
+    width: 60px;
+    height: 60px;
+    background: none;
+    cursor: pointer;
+}
+
+.contact-img figcaption {
+    font-size: 1rem;
 }
 
 /* Media Query for Smaller Screens */

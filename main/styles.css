@@ -131,6 +131,20 @@ section {
     background-size: contain;
 }
 
+.skills-elements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.skills-elements li {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .section-container {
@@ -149,5 +163,9 @@ section {
 
     .project-image img {
         width: 100%;
+    }
+
+    .skills-elements {
+        grid-template-columns: 1fr;
     }
 }

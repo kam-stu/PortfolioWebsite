@@ -19,6 +19,7 @@ a {
 
 nav {
     width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 2rem 1rem;
     display: flex;
@@ -112,22 +113,36 @@ section {
     border-radius: 15px;
 }
 
-.github-button {
+.social-media-img {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    transition: transform 0.3 ease;
+}
+
+.social-media-button {
     background: none;
     cursor: pointer;
     margin: 3rem;
 }
 
-.github-image {
-    width: 60px;
-    height: 60px;
+.github {
     background: url("/Images/github-mark-white.png") no-repeat center center;
     background-size: contain;
-    transition: transform 0.3 ease;
 }
 
-.github-button:hover .github-image {
+.social-media-button:hover .github {
     background: url("/Images/github-mark.png") no-repeat center center;
+    background-size: contain;
+}
+
+.linkedin {
+    background: url("/Images/ContactImages/linkedin-logo.png") no-repeat center center;
+    background-size: contain;
+}
+
+.social-media-button:hover .linkedin {
+    background: url("/Images/ContactImages/linkedin-hover.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -161,6 +176,8 @@ section {
     font-size: 1rem;
 }
 
+
+
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .section-container {
@@ -168,7 +185,7 @@ section {
         align-items: center;
     }
 
-    .section-left, .section-right {
+    .section-left, .section-right, .contact-left, .contact-mid, .contact-right {
         max-width: 100%;
         width: 100%;
     }
@@ -183,5 +200,9 @@ section {
 
     .skills-elements {
         grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        gap: 1rem;
     }
 }

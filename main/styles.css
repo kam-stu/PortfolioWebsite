@@ -89,7 +89,7 @@ section {
 .title {
     width: 50%;
     padding: 1rem;
-    font-size: 24px;
+    font-size: 2rem;
     margin: auto;
 }
 
@@ -127,12 +127,12 @@ section {
 }
 
 .github {
-    background: url("/Images/github-mark-white.png") no-repeat center center;
+    background: url("/Images/ContactImages/github-logo.png") no-repeat center center;
     background-size: contain;
 }
 
 .social-media-button:hover .github {
-    background: url("/Images/github-mark.png") no-repeat center center;
+    background: url("/Images/ContactImages/github-hover.png") no-repeat center center;
     background-size: contain;
 }
 

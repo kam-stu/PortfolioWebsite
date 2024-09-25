@@ -14,10 +14,10 @@
         <nav>
             <ul class="nav-links">
                 <li class="link"><a href="#AboutMe">About Me</a></li>
-                <li class="link"><a href="#">Projects</a></li>
-                <li class="link"><a href="#">Skills</a></li>
-                <li class="link"><a href="#">Contact</a></li>
-                <li class="link"><a href="#">Resume</a></li>
+                <li class="link"><a href="#Projects">Projects</a></li>
+                <li class="link"><a href="#Skills">Skills</a></li>
+                <li class="link"><a href="#Contact">Contact</a></li>
+                <li class="link"><a href="/Resume.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </div>
@@ -27,17 +27,18 @@
             <section id="AboutMe"></section>
             <div class="section-container">
                 <div class="section-left">
-                    <img src="/Images/PlaceHolder1.png" alt="PlaceHolder" style="width: 50%">
+                    <img src="/Images/headshot.jpeg" alt="PlaceHolder" style="width: 50%">
                 </div>
                 <div class="section-right">
                     <div class="title">Kameron Stuckey</div>
+                    
                     <div class="description">
                         <p>I am currently a 2nd year student at Louisiana Tech University studying
                         Computer Science.</p>
                         <br>
                         <p>I'm most interested in AI / Machine Learning, Data Science, and Game Design.</p>
                         <br>
-                        <p>My interests include the gym, music, and pokemon.</p>
+                        <p>My interests include the gym and music.</p>
                     </div>
                 </div>
             </div>
@@ -66,8 +67,8 @@
                         <br>
                         <div class="technologies-used">Technologies Used: Python, Roboflow, YOLOv9, OpenCV</div>
                     </div>
-                        <button class="github-button">
-                        <a href="https://github.com/aintkam/Project-RookRadar" target="_blank"><div class="github-image"></div></a>
+                        <button class="social-media-button">
+                        <a href="https://github.com/kam-stu/Project-RookRadar" target="_blank"><div class="social-media-img github"></div></a>
                     </button>
                 </div>
             </div>
@@ -86,8 +87,8 @@
                         <br>
                         <div class="technologies-used">Technologies Used: Python, Pygame</div>
                     </div>
-                    <button class="github-button">
-                        <a href="https://github.com/aintkam/CSC132SpiderShooter" target="_blank"><div class="github-image"></div></a>
+                    <button class="social-media-button">
+                        <a href="https://github.com/kam-stu/CSC132SpiderShooter" target="_blank"><div class="social-media-img github"></div></a>
                     </button>
                 </div>
                 <div class="section-right">
@@ -103,24 +104,73 @@
             <div class="section-container">
                 <div class="section-left">
                     <div class="project-image">
-                        <img src="/Images/PlaceHolder1.png" alt="PlaceHolder">
+                        <img src="/Images/ProjectImages/website.png" alt="Image of website">
                     </div>
                 </div>
                 <div class="section-right">
-                    <div class="title">This Website!</div>
+                    <div class="title">This Website</div>
                     <div class="description">
                         <p>Knowing how important a portfolio is, I decided to build this website as the first project for summer break.</p>
                         <br>
                         <p>Since I've never done web-dev, I first learned HTML and CSS to build websites. After learning the languages, I learned how to properly design and maintain a website while working on this project.</p>
+                        <br>
                         <div class="technologies-used">Technologies Used: HTML/CSS</div>
                     </div>
-                        <button class="github-button">
-                        <a href="https://github.com/aintkam/PortfolioWebsite" target="_blank"><div class="github-image"></div></a>
+                        <button class="social-media-button">
+                        <a href="https://github.com/kam-stu/PortfolioWebsite" target="_blank"><div class="social-media-img github"></div></a>
                     </button>
                 </div>
             </div>
         </div>
         <!--Add any additional projects here-->
+        <div class="container">
+            <div class="section-container">
+                <div class="section-left">
+                    <div class="project-image">
+                        <img src="/Images/ProjectImages/blackjack.png" alt="Screenshot of program">
+                    </div>
+                </div>
+
+                <div class="section-right">
+                    <div class="title">AceAnalyzer</div>
+                    <div class="description">
+                        <p>Ace Analyzer is a Blackjack program that featuers a Neural Network.</p>
+                        <br>
+                        <p>The Neural Network is trained on a custom dataset and tells the user whether the best most is to hit, stand, or double.  This is used to give an interesting twist to a normal Blackjack game</p>
+                        <br>
+                        <p>Other than the Neural Network, the program features an economy system for betting and winning as well as Quality of Life commands such as training the neural network or giving yourself money.</p>
+                        <div class="technologies-used">Technologies Used: Python/Tensorflow/Panas</div>
+                    </div>
+                        <button class="social-media-button">
+                        <a href="https://github.com/kam-stu/AceAnalyzer" target="_blank"><div class="social-media-img github"></div></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="section-container">
+                <div class="section-left">
+                    <div class="project-image">
+                        <img src="/Images/ProjectImages/connect-four.png" alt="Screenshot of program">
+                    </div>
+                </div>
+                <div class="section-right">
+                    <div class="title">Connect Four</div>
+                    <div class="description">
+                        <p>Connect Four is a program in Java that lets two users play connect four.</p>
+                        <br>
+                        <p>The board is stored in a 2D array and has logic to check for each win condition as well as draws.</p>
+                        <br>
+                        <p>The game has logic to reset the board if players decide to play again.</p>
+                        <div class="technologies-used">Technologies Used: Java</div>
+                    </div>
+                        <button class="social-media-button">
+                        <a href="https://github.com/kam-stu/connect-four" target="_blank"><div class="social-media-img github"></div></a>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="skills">
@@ -134,10 +184,48 @@
                 <li>Java</li>
                 <li>MS Excel</li>
                 <li>MS Word</li>
+                <li>HTML</li>
+                <li>CSS</li>
 
             </div>
         </div>
     </div>
 
+    <div class="contact">
+        <section id="Contact">Contact Me</section>
+        <div class="container">
+            <div class="section-container">
+                <div class="contact-left">
+                    <div class="title">Emails:</div>
+                    <div class="title" style="font-size: 1.5rem;">Personal:
+                        <div class="contact-img">
+                            <a href="mailto:kstuckey817@gmail.com"><img src="/Images/ContactImages/GmailLogo.png" alt="Gmail Logo"></a>
+                            <figcaption>kstuckey817@gmail.com</figcaption>
+                        </div>
+                    </div>
+                    <div class="title" style="font-size: 1.5rem;">Student:
+                        <div class="contact-img">
+                            <a href="mailto:kms095@latech.edu"><img src="/Images/ContactImages/TechLogo.png" alt="Louisiana Tech Logo"></a>
+                            <figcaption>kms095@latech.edu</figcaption>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-mid">
+                    <div class="title">LinkedIn:</div>
+                    <button class="social-media-button">
+                        <a href="https://linkedin.com/kam-stu/" target="_blank"><div class="social-media-img linkedin"></div></a>
+                    </button>
+                </div>
+
+                <div class="contact-right">
+                    <div class="title">Github:</div>
+                    <button class="social-media-button">
+                        <a href="https://github.com/kam-stu" target="_blank"><div class="social-media-img github"></div></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
